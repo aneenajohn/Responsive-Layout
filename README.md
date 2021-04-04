@@ -27,7 +27,7 @@ Hence, we can make our life easier and pretty simple by giving width in terms of
 </body>
 ```
 
-When you give the parent, `width:80%` and the child `width:50%`, __what does it actually mean?__**
+When you give the parent, `width:80%` and the child `width:50%`, _what does it actually mean?_**
 ```
 .parent{
      width:80%;
