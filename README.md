@@ -13,5 +13,15 @@
 As said earlier, "By default, things are responsive", which means that every element has a width of 100% of its parent.So, irrespective of the screen size, it is always 100% of viewport.
 Hence, we can make our life easier and pretty simple by giving width in terms of % values instead of a fixed value.
 
+### Percentages on the child.
+
+```
+    <div class="parent">
+        <div class="child">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt nam ullam quo incidunt rerum corporis reprehenderit blanditiis natus quae consequatur, possimus, dolores, mollitia a quis temporibus eos ut similique cupiditate!
+        </div>
+    </div>
+```
+
 
  

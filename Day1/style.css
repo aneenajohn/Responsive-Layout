@@ -9,9 +9,9 @@ body{
 .parent{
     background-color:purple;
     padding:50px;
-
     /* width:900px; */
     /*This kills the responsiveness */
+    /* default value for width is 100% */
     width:80%;
     margin:0 auto;
     /* this margin sets the parent on the center of the screen*/
@@ -19,5 +19,7 @@ body{
 
 .child{
     background-color: rgb(238, 159, 238);
+    width:50%;
     height:250px;
+    /* normally we wouldnt include a height, its just to get started */
 }
