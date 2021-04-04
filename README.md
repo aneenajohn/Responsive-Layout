@@ -16,12 +16,32 @@ Hence, we can make our life easier and pretty simple by giving width in terms of
 ### Percentages on the child.
 
 ```
+<body>
     <div class="parent">
         <div class="child">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt nam ullam quo incidunt rerum corporis reprehenderit blanditiis natus quae consequatur, possimus, dolores, mollitia a quis temporibus eos ut similique cupiditate!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Nesciunt nam ullam quo incidunt rerum corporis reprehenderit blanditiis natus quae consequatur,    
+            possimus, dolores, mollitia a quis temporibus eos ut similique cupiditate!
         </div>
     </div>
+</body>
 ```
 
-When you give the parent, `width:80%` and the child `width:50%`, what does it actually mean?
+When you give the parent, `width:80%` and the child `width:50%`, __what does it actually mean?__**
+```
+.parent{
+     width:80%;
+     }
+     
+.child{
+    width:50%;
+    }
+```
+
+The parent class would have 80% of its parent (ie) body and the child class would have 50% of width of its parent (ie) 50% of the 80% given to the parent.
+>* The bigger the parent gets, the bigger the child gets.
+>* The smaller the child gets, the smaller the child gets.
+>* It's always the relation between them.
+
+
 
