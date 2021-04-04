@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.parent{
+    background-color:purple;
+    padding:50px;
+
+    /* width:900px; */
+    /*This kills the responsiveness */
+    width:80%;
+    margin:0 auto;
+    /* this margin sets the parent on the center of the screen*/
+}
+
+.child{
+    background-color: rgb(238, 159, 238);
+    height:250px;
+}
