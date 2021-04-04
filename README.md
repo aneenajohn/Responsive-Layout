@@ -40,7 +40,7 @@ When you give the parent, `width:80%` and the child `width:50%`, __*what does it
 
 The parent class would have 80% of its parent (ie) body and the child class would have 50% of width of its parent (ie) 50% of the 80% given to the parent.
 
->*The bigger the parent gets, the bigger the child gets.
+>*The bigger the parent gets, the bigger the child gets.<Enter>
 The smaller the child gets, the smaller the child gets.
  It's always the relation between them.*
 
