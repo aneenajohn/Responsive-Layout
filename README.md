@@ -41,10 +41,10 @@ When you give the parent, `width:80%` and the child `width:50%`, __*what does it
 The parent class would have 80% of its parent (ie) body and the child class would have 50% of width of its parent (ie) 50% of the 80% given to the parent.
 
 >*The bigger the parent gets, the bigger the child gets.
->
 The smaller the child gets, the smaller the child gets.
+It's always the relation between them.*
 
- It's always the relation between them.*
-
-
+### Why it's a good idea to avoid heights?
+Whenever you give a fixed height to an element, when the screen gets smaller the content of the element overflows the parent.
+But when you want the element to take up a certain height, *__give padding around the element instead of the fixed value of height so that it becomes responsive.__*
 
