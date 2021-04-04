@@ -11,7 +11,7 @@
 
 ### So, how can we fix this problem?
 As said earlier, "By default, things are responsive", which means that every element has a width of 100% of its parent.So, irrespective of the screen size, it is always 100% of viewport.
-Hence, we can make life easier and pretty simple by giving width in terms of % values instead of s fixed value.
+Hence, we can make our life easier and pretty simple by giving width in terms of % values instead of a fixed value.
 
 
  
