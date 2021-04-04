@@ -27,7 +27,7 @@ Hence, we can make our life easier and pretty simple by giving width in terms of
 </body>
 ```
 
-When you give the parent, `width:80%` and the child `width:50%`, _what does it actually mean?_**
+When you give the parent, `width:80%` and the child `width:50%`, __*what does it actually mean?*__
 ```
 .parent{
      width:80%;
@@ -41,7 +41,7 @@ When you give the parent, `width:80%` and the child `width:50%`, _what does it a
 The parent class would have 80% of its parent (ie) body and the child class would have 50% of width of its parent (ie) 50% of the 80% given to the parent.
 
 >*The bigger the parent gets, the bigger the child gets.
->The smaller the child gets, the smaller the child gets.
+The smaller the child gets, the smaller the child gets.
  It's always the relation between them.*
 
 
