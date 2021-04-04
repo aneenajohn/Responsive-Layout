@@ -23,5 +23,6 @@ Hence, we can make our life easier and pretty simple by giving width in terms of
     </div>
 ```
 
+When you give the parent, `width:80%` and the child `width:50%`, what does it actually mean?
 
  
