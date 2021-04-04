@@ -3,7 +3,7 @@
 ## Day 01: Using percentages & avoiding heights
 ### Percentages Vs Fixed widths
 
- By default, things are responsive.
+ *By default, things are responsive.*
 
  Unless and until we dont assign a fixed width to any element our website is responsive.
  Whenever we try to create layouts for website, we create a problem by taking the responsiveness away.
